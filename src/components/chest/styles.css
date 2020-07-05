@@ -1,0 +1,33 @@
+.chest {
+  background: #F4F4F4;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.chest img {
+  width: 200px;
+  height: auto;
+}
+
+.chest-open {
+  z-index: 1000;
+  background: #F4F4F4;
+  position: fixed;
+  width: 100%;
+  max-width: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  padding: 20px;
+}
+
+.chest-open img {
+  width: 80%;
+  height: auto;
+}

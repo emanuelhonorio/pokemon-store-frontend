@@ -1,0 +1,36 @@
+.pokemon {
+  background: #F4F4F4;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.rarity {
+  padding: 20px;
+  background: #E9E9E9;
+  color: #333;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.image {
+  width: 80px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.number {
+  color: #B0B0B0;
+  font-size: 12px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.name {
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px;
+}
